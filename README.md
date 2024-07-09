@@ -4,22 +4,23 @@ deep learning model for classification in pytorch framework
 
 ### Data
 
+---
+
+
+
 #### CIFAR 10
 
 - `input_dim`: (32, 32)
-
 - `output_dim`: 10
 
 #### CIFAR 100
 
 - `input_dim`: (32, 32)
-
 - `output_dim`: 100
 
 #### ImageNet
 
 - `input_dim`: (224, 224)
-
 - `output_dim`: 1000
 
 #### MNIST
@@ -40,10 +41,13 @@ deep learning model for classification in pytorch framework
 #### STL 10
 
 - `input_dim`: (96,96)
-
 - `output_dim`: 10
 
 ### Model
+
+---
+
+
 
 #### CoAtNet
 
@@ -90,6 +94,10 @@ deep learning model for classification in pytorch framework
 
 ### Save File
 
+---
+
+
+
 #### Save Path
 
 ```python
@@ -99,9 +107,7 @@ check_path = f"../trained_models/{args.current_date}_{args.modelname}_{args.data
 #### Save Loss & Accuracy File
 
 - `log_train.csv`
-
 - `log_valid.csv`
-
 - `log_test.csv`
 
 #### Save Code
