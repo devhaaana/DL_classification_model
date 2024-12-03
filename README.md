@@ -1,5 +1,5 @@
-# DL_classification_model
-deep learning model for classification in pytorch framework
+# Pytorch-Image-classification-models
+Deep learning model for classification in pytorch framework
 
 ## Data
 ### CIFAR 10
